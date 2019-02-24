@@ -1,0 +1,40 @@
+rami_saadani_forum:
+    resource: "@RamiSaadaniForumBundle/Resources/config/routing.yml"
+    prefix:   /forum
+
+Evenement:
+    resource: "@EvenementBundle/Resources/config/routing.yml"
+    prefix:   /Evenement
+
+
+my_app_user:
+    resource: "@MyAppUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+Magsin:
+    resource: "@MagsinBundle/Resources/config/routing.yml"
+    prefix:   /Magsin
+
+Article:
+    resource: "@MyAppArticleBundle/Resources/config/routing.yml"
+    prefix:   /Article
+
+Evaluation:
+    resource: "@MyAppEvaluationBundle/Resources/config/routing.yml"
+    prefix:   /Evaluation
+
+Offre:
+    resource: "@MyAppOffreBundle/Resources/config/routing.yml"
+    prefix:   /Offre
+
+Espace:
+    resource: "@PiEspaceBundle/Resources/config/routing.yml"
+    prefix:   /Espace
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
